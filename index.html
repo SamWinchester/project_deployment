@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<style type="text/css">
+
+	form{
+		margin-top: 22%;
+	}
+	body{
+		background: url(img/111.jpg);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		font-size: 16px;
+	}
+	input{
+		padding: 5px;
+		margin: 10px;
+		margin-top: 5px;
+		outline: none;	
+		border-radius: 7px;
+		background: white;
+		text-align: center;
+		font-weight: bold;
+		width: 300px;
+		height: 40px;
+	}
+	button{
+		width: 150px;
+		height: 45px;
+		border-radius: 7px;
+		background: rgb(249,51,51);
+		color: white;
+		font-weight: bold;
+
+	}
+	p{
+		color: white;
+	}
+	img{
+		position:absolute;
+		top: 12px;
+		left: 10px;
+	}
+	</style>
+</head>
+<body>
+<img src="img/bosch.png">
+<center>
+	
+	<form action="auth.php" method="post">
+	<p>Enter Your Username</p>
+		<input type="text" name="username" placeholder="enter your name" required></input><br><br>
+		<p>Enter your password</p>
+		<input type="password" name="password" placeholder="enter your password" required></input>
+		<br><br>	
+		<button >SUBMIT</button>
+	</form>
+</center>
+</body>
+</html>

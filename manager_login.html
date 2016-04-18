@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<style type="text/css">
+	input{
+		width:45%;
+		height: 30px;
+		border: 1px solid black ;
+		border-radius: 7px; 
+		font-weight: bold;
+		text-align: center;
+	}
+	form{
+		padding: 50px;
+		width: 40%;
+		border: 2px solid black;
+	}
+	body{
+		padding: 50px;
+		text-align: center;
+		font-weight: bold;
+	}
+	button{
+		width: 25%;
+		height: 35px;
+		font-weight: bold;
+		border: 1px solid black;
+		border-radius: 7px;
+	}
+	</style>
+</head>
+<body>
+	<center>
+		<h1>Login page for Managers</h1>
+		<hr><br><br>
+
+		<form action="manager_auth.php" method='post'>
+			Enter UserID : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input  type="text" name="username" placeholder="Enter your User ID"></input>
+			<br><br>
+			Enter Password : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input  type="password" name="password" placeholder="enter your password"></input>
+
+<br><br><br>
+			<button >SUBMIT</button>
+		</form>
+	</center>
+</body>
+</html>
